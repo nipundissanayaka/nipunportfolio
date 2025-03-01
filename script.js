@@ -25,21 +25,21 @@ function eraseText() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
     typeText();
 });
 
 // Theme Toggle
 const themeToggle = document.getElementById("theme-toggle");
 
-themeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-    if (document.body.classList.contains("dark-mode")) {
-        themeToggle.textContent = "☀️"; // Change to sun icon
-    } else {
-        themeToggle.textContent = "🌙"; // Change to moon icon
-    }
-});
+//themeToggle.addEventListener("click", () => {
+//document.body.classList.toggle("dark-mode");
+//if (document.body.classList.contains("dark-mode")) {
+       // themeToggle.textContent = "🌙"; // Change to sun icon
+//} else {
+       // themeToggle.textContent = "🌙"; // Change to moon icon
+    //}
+//});
 
 // Smooth Scrolling
 document.querySelectorAll(".nav-links a").forEach(anchor => {
